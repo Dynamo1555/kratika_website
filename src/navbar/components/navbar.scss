@@ -1,9 +1,12 @@
 .navbar{
+  
     height: 100px;
+    margin:  auto;
 
     .wrapper{
       max-width: 1366px;
-      margin: auto;
+      margin: 0 auto; // Center the container horizontally
+      
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -11,11 +14,13 @@
           
       span{
         font-weight: bold;
+        margin-left: 7%;
         }
 
       .social{
         display: flex;
         gap: 20px;
+        margin-right: 4%;
         }
 
       img{
